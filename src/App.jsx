@@ -1,13 +1,15 @@
 import Main from "./components/Main";
+import Projects from "./components/Projects";
 import Sidenav from "./components/Sidenav";
 import Work from "./components/Work";
 
 function App() {
 	return (
-		<div className="">
+		<div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-gray-50 via-gray-100 to-gray-50">
 			<Sidenav />
 			<Main />
 			<Work />
+			<Projects />
 		</div>
 	);
 }
