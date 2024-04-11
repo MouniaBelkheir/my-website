@@ -4,7 +4,7 @@ const Projects = () => {
 	const projects = [
 		{
 			image: "/src/assets/images/simpleRecipe.png",
-			title: "Simple Omelette Recipe page",
+			title: " Recipe page",
 			website: "https://recipe-five-rouge.vercel.app/",
 			details: "HTML - TailwindCSS",
 		},
@@ -26,19 +26,18 @@ const Projects = () => {
 			website: "https://the-menu-tau.vercel.app/",
 			details: "HTML - TailwindCSS",
 		},
-		{
-			image: "",
-			title: "",
-			website: "",
-			details: "",
-		},
-		
+		// {
+		// 	image: "",
+		// 	title: "",
+		// 	website: "",
+		// 	details: "",
+		// },
 	];
 	return (
 		<div
 			id="projects"
 			className="max-w-[1040px] m-auto md:pl-20 p-4 py-16 text-gray-700">
-			<h1 className="text-4xl font-bold text-center pb-10 ">Projects</h1>
+			<h1 className="text-4xl font-bold text-center pb-20 ">Projects</h1>
 			<div className="grid lg:grid-cols-4 md:grid-cols-2 gap-10 ">
 				{projects.map((item, index) => (
 					<ProjectItem
