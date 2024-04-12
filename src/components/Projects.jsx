@@ -3,6 +3,24 @@ import ProjectItem from "./ProjectItem";
 const Projects = () => {
 	const projects = [
 		{
+			image: "/src/assets/images/website.png",
+			title: "Portfolio website",
+			website: "",
+			details: "React js - TailwindCSS - Vite js",
+		},
+		{
+			image: "/src/assets/images/sougna.png",
+			title: "Sougna",
+			website: "https://sougna.vercel.app/",
+			details: "Next js - TailwindCSS - FireStore - Stripe",
+		},
+		{
+			image: "/src/assets/images/studentStore.png",
+			title: "Student store",
+			website: "https://studentsstore.vercel.app/",
+			details: "Next js - TailwindCSS - DaisyUI - Firebase - i18n",
+		},
+		{
 			image: "/src/assets/images/simple-omelette-recipe.png",
 			title: " Recipe page",
 			website: "https://recipe-five-rouge.vercel.app/",
@@ -26,12 +44,7 @@ const Projects = () => {
 			website: "https://the-menu-tau.vercel.app/",
 			details: "HTML - TailwindCSS",
 		},
-		// {
-		// 	image: "",
-		// 	title: "",
-		// 	website: "",
-		// 	details: "",
-		// },
+		
 	];
 	return (
 		<div

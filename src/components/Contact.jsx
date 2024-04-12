@@ -10,6 +10,7 @@ const Contact = () => {
 				action="https://getform.io/f/panvnlga"
 				method="POST"
 				encType="multipart/form-data"
+				className="px-6"
 			>
 				<div className="grid md:grid-cols-2 gap-4 w-full py-4">
 					<div className="flex flex-col">

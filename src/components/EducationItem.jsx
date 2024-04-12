@@ -10,7 +10,7 @@ const EducationItem = ({
 	location,
 }) => {
 	return (
-		<ol className="flex flex-col md:flex-row relative border-pink-800">
+		<ol className="flex flex-col md:flex-row relative border-pink-800 px-6">
 			<li className="mb-4 ml-4 ">
 				<div className="absolute w-3 h-3 bg-pink-700 rounded-full mt-1.5 -left-1.5 border-white" />
 				<p className="flex flex-wrap gap-4 flex-row justify-start text-sm pb-2">

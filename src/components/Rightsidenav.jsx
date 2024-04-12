@@ -1,8 +1,8 @@
 import PropTypes from "prop-types";
-const Rightsidenav = ({ name, href, Icon }) => {
+const Rightsidenav = ({ name, href, Icon, handleNav }) => {
 	return (
 		
-			<a
+			<a onClick={handleNav}
 				href={href}
 				className="w-[75%] flex justify-center items-center rounded-full shadow-pink-600 shadow-md bg-pink-100/5 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200">
 				<Icon size={20} />
@@ -14,7 +14,8 @@ const Rightsidenav = ({ name, href, Icon }) => {
 Rightsidenav.propTypes = {
 	name: PropTypes.string,
 	href: PropTypes.string,
-	Icon: PropTypes.elementType
+	Icon: PropTypes.elementType,
+	handleNav: PropTypes.elementType
 };
 
 export default Rightsidenav;

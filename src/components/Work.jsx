@@ -33,7 +33,7 @@ const Work = () => {
 	return (
 		<div
 			id="work"
-			className="max-w-[1040px] m-auto md:pl-20 p-4 py-16 text-gray-700">
+			className="max-w-[1040px] m-auto md:pl-20 px-9 py-16 text-gray-700">
 			<h1 className="text-4xl font-bold text-center pb-10 ">Work experience</h1>
 			{data.map((item, index) => (
 				<WorkItem
