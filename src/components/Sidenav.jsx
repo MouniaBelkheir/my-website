@@ -29,11 +29,11 @@ const Sidenav = () => {
 			href: "#education",
 			icon: PiStudent,
 		},
-		{
-			name: "Resume",
-			href: "#resume",
-			icon: BsPerson,
-		},
+		// {
+		// 	name: "Resume",
+		// 	href: "#resume",
+		// 	icon: BsPerson,
+		// },
 		{
 			name: "Contact",
 			href: "#contact",
@@ -67,7 +67,7 @@ const Sidenav = () => {
 				""
 			)}
 			{/* side icons in md and lg screen: */}
-			<div className="md:block hidden fixed top-[15%] z-10">
+			<div className="md:block hidden fixed top-[20%] z-10">
 				<div className="flex flex-col">
 					{navitems.map((item, index) => (
 						<Leftnavicons

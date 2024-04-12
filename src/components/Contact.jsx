@@ -3,7 +3,7 @@ const Contact = () => {
 		<div
 			id="contact"
 			className="max-w-[1040] md:mx-[10%] lg:px-32 p-4 ">
-			<h1 className="py-4 text-4xl font-bold text-center text-gray-700">
+			<h1 className=" pb-8 text-4xl font-bold text-center text-gray-700">
 				Conatct
 			</h1>
 			<form
