@@ -3,7 +3,7 @@ import ProjectItem from "./ProjectItem";
 const Projects = () => {
 	const projects = [
 		{
-			image: "/src/assets/images/simpleRecipe.png",
+			image: "/src/assets/images/simple-omelette-recipe.png",
 			title: " Recipe page",
 			website: "https://recipe-five-rouge.vercel.app/",
 			details: "HTML - TailwindCSS",
@@ -36,7 +36,7 @@ const Projects = () => {
 	return (
 		<div
 			id="projects"
-			className="max-w-[1040px] m-auto md:pl-20 p-4 py-16 text-gray-700">
+			className="max-w-[1040] m-auto md:px-32 pb-16 text-gray-700">
 			<h1 className="text-4xl font-bold text-center pb-20 ">Projects</h1>
 			<div className="grid lg:grid-cols-4 md:grid-cols-2 gap-10 ">
 				{projects.map((item, index) => (
