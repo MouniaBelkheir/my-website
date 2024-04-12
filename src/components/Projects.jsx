@@ -1,11 +1,12 @@
 import ProjectItem from "./ProjectItem";
+import disney from "../assets/disney.png";
 
 const Projects = () => {
 	const projects = [
 		{
 			image: "/src/assets/images/website.png",
 			title: "Portfolio website",
-			website: "",
+			website: "https://mouniabelkheir.vercel.app/",
 			details: "React js - TailwindCSS - Vite js",
 		},
 		{
@@ -33,7 +34,7 @@ const Projects = () => {
 			details: "Vite js - React js - TailwindCSS",
 		},
 		{
-			image: "/src/assets/images/disney.png",
+			image: { disney },
 			title: "Disney Clone",
 			website: "https://disney-clone-one-psi.vercel.app/",
 			details: "Vite js - React js - TailwindCSS",
@@ -44,7 +45,6 @@ const Projects = () => {
 			website: "https://the-menu-tau.vercel.app/",
 			details: "HTML - TailwindCSS",
 		},
-		
 	];
 	return (
 		<div
