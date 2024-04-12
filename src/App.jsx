@@ -12,8 +12,8 @@ function App() {
 			<Main />
 			<Work />
 			<Projects />
-			<Contact />
 			<Education />
+			<Contact />
 		</div>
 	);
 }
