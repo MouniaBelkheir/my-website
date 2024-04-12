@@ -6,7 +6,7 @@ const ProjectItem = ({ image, title, website, details }) => {
 			<img
 				src={image}
 				alt={title}
-				className="rounded-xl group-hover:opacity-10 w-72 h-52 object-contain"
+				className="rounded-xl group-hover:opacity-10 w-72 h-52 "
 			/>
 			<div className="hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] ">
 				<h3 className="text-xl font-bold text-center tracking-wider">

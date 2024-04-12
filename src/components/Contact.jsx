@@ -2,14 +2,15 @@ const Contact = () => {
 	return (
 		<div
 			id="contact"
-			className="max-w-[1040] m-auto md:px-32 p-4 ">
+			className="max-w-[1040] md:mx-[10%] lg:px-32 p-4 ">
 			<h1 className="py-4 text-4xl font-bold text-center text-gray-700">
 				Conatct
 			</h1>
 			<form
 				action="https://getform.io/f/panvnlga"
 				method="POST"
-				encType="multipart/form-data">
+				encType="multipart/form-data"
+			>
 				<div className="grid md:grid-cols-2 gap-4 w-full py-4">
 					<div className="flex flex-col">
 						<label className=" uppercase text-sm py-2">Name</label>
