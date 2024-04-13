@@ -1,46 +1,45 @@
 import ProjectItem from "./ProjectItem";
-import disney from "../assets/disney.png";
 
 const Projects = () => {
 	const projects = [
 		{
-			image: "/src/assets/images/website.png",
+			image: "/website.png",
 			title: "Portfolio website",
 			website: "https://mouniabelkheir.vercel.app/",
 			details: "React js - TailwindCSS - Vite js",
 		},
 		{
-			image: "/src/assets/images/sougna.png",
+			image: "/sougna.png",
 			title: "Sougna",
 			website: "https://sougna.vercel.app/",
 			details: "Next js - TailwindCSS - FireStore - Stripe",
 		},
 		{
-			image: "/src/assets/images/studentStore.png",
+			image: "/studentStore.png",
 			title: "Student store",
 			website: "https://studentsstore.vercel.app/",
 			details: "Next js - TailwindCSS - DaisyUI - Firebase - i18n",
 		},
 		{
-			image: "/src/assets/images/simple-omelette-recipe.png",
+			image: "/simple-omelette-recipe.png",
 			title: " Recipe page",
 			website: "https://recipe-five-rouge.vercel.app/",
 			details: "HTML - TailwindCSS",
 		},
 		{
-			image: "/src/assets/images/theBlog.png",
+			image: "/theBlog.png",
 			title: "The Blog",
 			website: "https://mouniabelkheir.github.io/theBlog/",
 			details: "Vite js - React js - TailwindCSS",
 		},
 		{
-			image: { disney },
+			image: "/disney.png",
 			title: "Disney Clone",
 			website: "https://disney-clone-one-psi.vercel.app/",
 			details: "Vite js - React js - TailwindCSS",
 		},
 		{
-			image: "/src/assets/images/theMenu.png",
+			image: "/theMenu.png",
 			title: "The Menu",
 			website: "https://the-menu-tau.vercel.app/",
 			details: "HTML - TailwindCSS",

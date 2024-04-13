@@ -1,14 +1,6 @@
 import PropTypes from "prop-types";
 
-const EducationItem = ({
-	year,
-	title,
-	duration,
-	details,
-	degree,
-	school,
-	location,
-}) => {
+const EducationItem = ({ year, title, duration, degree, school, location }) => {
 	return (
 		<ol className="flex flex-col md:flex-row relative border-pink-800 px-6">
 			<li className="mb-4 ml-4 ">

@@ -1,7 +1,6 @@
 import { AiOutlineHome, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
 import { useState } from "react";
 import { GrProjects } from "react-icons/gr";
-import { BsPerson } from "react-icons/bs";
 import { MdOutlineWorkOutline } from "react-icons/md";
 import Rightsidenav from "./Rightsidenav";
 import Leftnavicons from "./Leftnavicons";

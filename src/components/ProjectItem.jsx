@@ -27,7 +27,7 @@ const ProjectItem = ({ image, title, website, details }) => {
 	);
 };
 ProjectItem.propTypes = {
-	image: PropTypes.any,
+	image: PropTypes.elementType,
 	title: PropTypes.string,
 	website: PropTypes.string,
 	details: PropTypes.string,
