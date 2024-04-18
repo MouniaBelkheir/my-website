@@ -3,6 +3,12 @@ import ProjectItem from "./ProjectItem";
 const Projects = () => {
 	const projects = [
 		{
+			image: "/best-eats.jpeg",
+			title: "Best Eats",
+			website: "https://best-eats-xi.vercel.app/",
+			details: "React js - TailwindCSS - Vite js",
+		},
+		{
 			image: "/website.png",
 			title: "Portfolio website",
 			website: "https://mouniabelkheir.vercel.app/",
@@ -50,7 +56,7 @@ const Projects = () => {
 			id="projects"
 			className="max-w-[1040] m-auto md:px-32 pb-16 text-gray-700">
 			<h1 className="text-4xl font-bold text-center pb-20 ">Projects</h1>
-			<div className="grid lg:grid-cols-4 md:grid-cols-2 gap-10 ">
+			<div className="grid lg:grid-cols-4 md:grid-cols-2 gap-10">
 				{projects.map((item, index) => (
 					<ProjectItem
 						key={index}
