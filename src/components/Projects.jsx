@@ -3,6 +3,12 @@ import ProjectItem from "./ProjectItem";
 const Projects = () => {
 	const projects = [
 		{
+			image: "/disney.png",
+			title: "Disney Clone",
+			website: "https://disney-clone-one-psi.vercel.app/",
+			details: "Vite js - React js - TailwindCSS - TMDB",
+		},
+		{
 			image: "/best-eats.jpeg",
 			title: "Best Eats",
 			website: "https://best-eats-xi.vercel.app/",
@@ -14,17 +20,17 @@ const Projects = () => {
 			website: "https://mouniabelkheir.vercel.app/",
 			details: "React js - TailwindCSS - Vite js",
 		},
+				{
+			image: "/studentStore.png",
+			title: "Student store",
+			website: "https://studentsstore.vercel.app/",
+			details: "Next js - TailwindCSS - DaisyUI - Firebase - i18n",
+		},
 		{
 			image: "/sougna.png",
 			title: "Sougna",
 			website: "https://sougna.vercel.app/",
 			details: "Next js - TailwindCSS - FireStore - Stripe",
-		},
-		{
-			image: "/studentStore.png",
-			title: "Student store",
-			website: "https://studentsstore.vercel.app/",
-			details: "Next js - TailwindCSS - DaisyUI - Firebase - i18n",
 		},
 		{
 			image: "/simple-omelette-recipe.png",
@@ -33,22 +39,16 @@ const Projects = () => {
 			details: "HTML - TailwindCSS",
 		},
 		{
-			image: "/theBlog.png",
-			title: "The Blog",
-			website: "https://mouniabelkheir.github.io/theBlog/",
-			details: "Vite js - React js - TailwindCSS",
-		},
-		{
-			image: "/disney.png",
-			title: "Disney Clone",
-			website: "https://disney-clone-one-psi.vercel.app/",
-			details: "Vite js - React js - TailwindCSS",
-		},
-		{
 			image: "/theMenu.png",
 			title: "The Menu",
 			website: "https://the-menu-tau.vercel.app/",
 			details: "HTML - TailwindCSS",
+		},
+		{
+			image: "/theBlog.png",
+			title: "The Blog",
+			website: "https://mouniabelkheir.github.io/theBlog/",
+			details: "Vite js - React js - TailwindCSS",
 		},
 	];
 	return (
