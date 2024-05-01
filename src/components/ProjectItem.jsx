@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 
 const ProjectItem = ({ image, title, website, details }) => {
 	return (
-		<div className=" relative flex items-center justify-center h-auto w-auto shadow-md mx-auto shadow-pink-500 rounded-lg group hover:bg-gradient-to-r from-pink-50 to-pink-300 ">
+		<div className=" relative flex items-center justify-center h-auto w-auto shadow-md mx-auto rounded-lg group hover:bg-gradient-to-r from-pink-50 to-pink-300 ">
 			<img
 				src={image}
 				alt={title}
