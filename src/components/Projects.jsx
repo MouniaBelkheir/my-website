@@ -39,6 +39,12 @@ const Projects = () => {
 			details: "React js - TailwindCSS - OpenWeather API - Axios - Vite js",
 		},
 		{
+			image: "/calculator.jpeg",
+			title: "Simple Calculator",
+			website: "https://calculator-two-sable-14.vercel.app/",
+			details: "JavaScript - HTML - CSS - Vite js",
+		},
+		{
 			image: "/simple-omelette-recipe.png",
 			title: " Recipe page",
 			website: "https://recipe-five-rouge.vercel.app/",
