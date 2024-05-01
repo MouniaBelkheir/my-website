@@ -18,4 +18,14 @@ This is the repository for my portfolio website, built using React.js, Vite.js, 
 - Vite.js
 - Tailwind CSS
 
-[Mounia Belkheir](https://mouniabelkheir.vercel.app/)
+Website: [Mounia Belkheir](https://mouniabelkheir.vercel.app/)
+
+## Sceenshots
+
+![Screenshot of the Portfolio Website](/public/1.jpeg)
+![Screenshot of the Portfolio Website](/public/2.jpeg)
+![Screenshot of the Portfolio Website](/public/3.jpeg)
+![Screenshot of the Portfolio Website](/public/4.jpeg)
+![Screenshot of the Portfolio Website](/public/5.jpeg)
+![Screenshot of the Portfolio Website](/public/mouniabelkheir-PHONE.gif)
+
