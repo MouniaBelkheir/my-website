@@ -33,6 +33,12 @@ const Projects = () => {
 			details: "Next js - TailwindCSS - FireStore - Stripe",
 		},
 		{
+			image: "/weather-app.jpeg",
+			title: "Weather App",
+			website: "https://weather-app-brown-rho.vercel.app/",
+			details: "React js - TailwindCSS - OpenWeather API - Axios - Vite js",
+		},
+		{
 			image: "/simple-omelette-recipe.png",
 			title: " Recipe page",
 			website: "https://recipe-five-rouge.vercel.app/",
