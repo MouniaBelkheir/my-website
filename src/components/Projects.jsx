@@ -3,9 +3,9 @@ import ProjectItem from "./ProjectItem";
 const Projects = () => {
 	const projects = [
 		{
-			image: "/disney.png",
-			title: "Disney Clone",
-			website: "https://disney-clone-one-psi.vercel.app/",
+			image: "/the-movie.jpeg",
+			title: "The Movie",
+			website: "https://the-movie-mouniabelkheir.vercel.app/",
 			details: "Vite js - React js - TailwindCSS - TMDB",
 		},
 		{
