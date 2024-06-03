@@ -29,16 +29,16 @@ const Main = () => {
 						cursor={false}
 						speed={50}
 						repeat={Infinity}
-						className="sm:text-4xl text-3xl font-semibold text-gray-800 "
+						className="sm:text-4xl text-3xl font-semibold text-gray-800"
 					/>
 
-					<div className="flex justify-evenly pt-6 max-w-[200px] w-full">
+					<div className="flex justify-evenly pt-10 max-w-[200px] w-full">
 						<a
 							href="https://www.linkedin.com/in/mouniabelkheir/"
 							target="_blank">
 							<FaLinkedin
 								className="cursor-pointer"
-								size={25}
+								size={40}
 							/>
 						</a>
 						<a
@@ -46,7 +46,7 @@ const Main = () => {
 							target="_blank">
 							<FaGithub
 								className="cursor-pointer"
-								size={25}
+								size={40}
 							/>
 						</a>
 					</div>
