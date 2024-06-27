@@ -28,11 +28,6 @@ const Sidenav = () => {
 			href: "#education",
 			icon: PiStudent,
 		},
-		// {
-		// 	name: "Resume",
-		// 	href: "#resume",
-		// 	icon: BsPerson,
-		// },
 		{
 			name: "Contact",
 			href: "#contact",
@@ -73,6 +68,7 @@ const Sidenav = () => {
 							key={index}
 							href={item.href}
 							Icon={item.icon}
+							name={item.name} // pass name prop
 						/>
 					))}
 				</div>
